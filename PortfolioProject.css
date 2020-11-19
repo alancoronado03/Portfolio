@@ -6,9 +6,6 @@
     margin: 0 auto;
     font-family: Arial;
   }
-  body {
-    overflow-x: hidden;
-   }
   /* Style tab links */
   .tablink {
     background-color: #555;
@@ -55,5 +52,8 @@
   
   
   #Home {background-color: crimson ;}
-  #Portfolio {background-color:olive;}
+  #Portfolio {
+    background-color:olive;
+    background-size: cover;
+  }
   #AboutMe {background-color: blueviolet;}
