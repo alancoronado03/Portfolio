@@ -3,9 +3,12 @@
   /* Set height of body and the document to 100% */
   body, html {
     height: 100%;
+    margin: 0 auto;
     font-family: Arial;
   }
-  
+  body {
+    overflow-x: hidden;
+   }
   /* Style tab links */
   .tablink {
     background-color: #555;
