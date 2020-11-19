@@ -45,6 +45,12 @@
     
   
   }
+   rocketship, minion{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+  }
   #Portfolio{
     background-color:olive;
     background-size: cover;
