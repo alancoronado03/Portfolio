@@ -1,23 +1,13 @@
 * {box-sizing: border-box}
 
   /* Set height of body and the document to 100% */
-  html, body {
+ body, html {
     height: 100%;
-    width: 100%;
     margin: 0 auto;
     font-family: Arial;
     
   }
- #Portfolio{
-    background-color: olive;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    
-    
-  }
+ 
   /* Style tab links */
   .tablink {
     background-color: #555;
@@ -53,6 +43,7 @@
     margin-right: auto;
     width: 50%;
     
+   
   
   }
    rocketship, minion{
@@ -60,6 +51,16 @@
      margin-left: auto;
      margin-right: auto;
      width: 50%;
+  }
+#Portfolio{
+    background-color: olive;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+    
   }
  
   
