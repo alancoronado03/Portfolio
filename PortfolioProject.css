@@ -3,9 +3,18 @@
   /* Set height of body and the document to 100% */
   body, html {
     height: 100%;
-    
     margin: 0 auto;
     font-family: Arial;
+    
+  }
+ #Portfolio{
+    background-color: olive;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
     
   }
   /* Style tab links */
@@ -51,15 +60,7 @@
      margin-right: auto;
      width: 50%;
   }
-  #Portfolio{
-    background-color: olive;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    
-    
-    
-  }
+ 
   
   
     
