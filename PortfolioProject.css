@@ -3,6 +3,7 @@
   /* Set height of body and the document to 100% */
  body, html {
     height: 100%;
+    margin: 0;
     font-family: Arial;
     
   }
@@ -29,6 +30,7 @@
     color: white;
     display: none;
     height: 100%;
+    padding: 100px 20px;
   }
   h1{
     position: relative;
@@ -48,10 +50,7 @@
     margin-right: auto;
     width: 50%;
   }
-  #Portfolio{
-    background-color: olive;
-    background-size: cover;
-  }
+ 
  
   
   
@@ -62,5 +61,5 @@
   
   
   #Home {background-color: crimson ;}
-  
+  #Portfolio {background-color: olive; }
   #AboutMe {background-color: blueviolet;}
