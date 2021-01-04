@@ -45,19 +45,19 @@
     width: 50%;
   
   }
-  rocketship, minion,dino{
+  rocketship, minion, dino{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
  
  
   #background
 { 
     position:absolute; 
-    height:100%; 
-    width:100%;
+    height: 100%; 
+    width: 100%;
     background-color:#9B59B6;
     margin: 0px 0 0 0;
 
