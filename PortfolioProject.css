@@ -3,8 +3,7 @@
   /* Set height of body and the document to 100% */
   body, html {
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     width: 100%;
     font-family: Arial;
   }
@@ -61,7 +60,6 @@
     width: 100%;
     background-color:#9B59B6;
     margin: 0px 0 0 0;
-    background-size: cover;
 
 }
   
