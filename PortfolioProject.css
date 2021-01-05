@@ -1,13 +1,12 @@
 * {box-sizing: border-box}
 
   /* Set height of body and the document to 100% */
-  html, body {
-    height: 100%;
+  body, html {
+    background-size: cover;
     margin: 0;
     font-family: Arial;
   }
   
- 
   /* Style tab links */
   .tablink {
     background-color: #555;
@@ -29,8 +28,10 @@
   .tabcontent {
     color: white;
     display: none;
-    height: 100%;
     padding: 100px 20px;
+    margin: 0;
+    height: 100%;
+  
   }
   h1{
     position: relative;
@@ -42,8 +43,30 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    
+  
+  }
+  #background
+  { 
+      position: relative; 
+      height: 100%; 
+      width: 100%;
+      background-color:#9B59B6;
+      margin: 0px 0 0 0;
+  
+  }
+  p{
+    text-align: right;
+    font-size: 30px;
+  }
   
   
-#Home {background-color: crimson ;}
-#Portfolio {background-color: olive;}
-#AboutMe {background-color: blueviolet;}
+    
+  
+  
+  
+  
+  
+  #Home {background-color: crimson; height: 100%;}
+  #Portfolio {background-color:olive; height: 100%;}
+  #AboutMe {background-color: blueviolet; height: 100%;}
