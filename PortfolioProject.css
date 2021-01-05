@@ -4,7 +4,6 @@
   html, body {
     height: 100%;
     margin: 0;
-    padding: 0;
     font-family: Arial;
   }
   
@@ -51,28 +50,7 @@
     margin-right: auto;
     width: 50%;
   }
- 
- 
-  #background
-{ 
-    position:absolute; 
-    height: 100%; 
-    width: 100%;
-    background-color:#9B59B6;
-    margin: 0px 0 0 0;
-
-}
-  
-    
-  
-  
-  
-  
   
 #Home {background-color: crimson ;}
-#Portfolio {
-    background-color: olive; 
-    position: absolute;
-    height: 100%;
-}
+#Portfolio {background-color: olive;}
 #AboutMe {background-color: blueviolet;}
