@@ -62,7 +62,6 @@
     width: 100%;
     background-color:#9B59B6;
     margin: 0px 0 0 0;
-    background-size: cover;
 
 }
   
@@ -73,5 +72,5 @@
   
   
   #Home {background-color: crimson ;}
-  #Portfolio {background-color: olive; background-size: cover;}
+  #Portfolio {background-color: olive; background-size: cover; height: 100%;}
   #AboutMe {background-color: blueviolet;}
