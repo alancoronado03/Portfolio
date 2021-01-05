@@ -1,12 +1,10 @@
 * {box-sizing: border-box}
 
   /* Set height of body and the document to 100% */
-  body, html {
-    position: absolute;
+  html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
     font-family: Arial;
   }
   
@@ -71,6 +69,10 @@
   
   
   
-  #Home {background-color: crimson ;}
-  #Portfolio {background-color: olive;}
-  #AboutMe {background-color: blueviolet;}
+#Home {background-color: crimson ;}
+#Portfolio {
+    background-color: olive; 
+    position: absolute;
+    height: 100%;
+}
+#AboutMe {background-color: blueviolet;}
